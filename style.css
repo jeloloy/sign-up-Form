@@ -140,8 +140,8 @@ button{
         background-size: cover;
     }
     .right-side{
-        width: auto;
-        height: auto;
+        width: 100vw;
+        height: 100vh;
         text-align: center;
     }
     .right-side-container{
