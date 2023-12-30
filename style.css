@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    /* background-color: lightblue; */
+    display: flex;
+    flex-flow: column row;
+    height: 100vh;
+}
+.left-side{
+    background-image: url(/image/christmas-night.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+}
+.left-side-container{
+    background-color: rgba(189, 189, 189, 0.486);
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.left-side-header-doggy{
+    display: flex;
+    align-items: center;
+}
+.main-container img{
+    height: 20vh;
+}
+
+.right-side{
+    /* background-color: lightcoral; */
+    width: 100vw;
+}
+.right-side-container{
+    background-color: rgba(163, 163, 163, 0.322);
+    padding-bottom: 2rem;
+}
+.right-side-para{
+    /* background-color: lightgoldenrodyellow; */
+    width: 44vw;
+    padding: 3rem 0rem 0rem 2rem;
+}
+.dummy-text{
+    padding-top: 2.5rem;
+}
+.dummy-text-one{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.main-form{
+    padding-bottom: 5rem;
+    box-shadow: 0 3px 2px -2px gray;
+}
+.main-input{
+    gap: 10rem;
+}
+.input-one{
+    padding-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+.input-inside{
+    padding-left: 10rem;
+}
+.input-inside-one{
+    background-color: rgb(16, 105, 134);
+}
+input{
+    background-color: lightcyan;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    border: .5px solid gray;
+    height: 2.5rem;
+    width: 15rem;
+    padding-left: 2rem;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus{
+    outline: 1px solid rgb(34, 65, 204);
+}
+.create-account{
+    margin: 2rem;
+}
+button{
+    background-color: rgb(29, 107, 29);
+    border: none;
+    border-radius: 9px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.create-account h2{
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.create-account a{
+    cursor: pointer;
+    color: rgb(12, 92, 12);
+}
